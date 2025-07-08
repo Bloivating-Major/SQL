@@ -28,3 +28,15 @@ VALUES
 ('Yoga Mat', 'YM901234', 499.00, 25, TRUE, 'Fitness'),
 ('Water Bottle', 'WB012345', 349.00, 60, TRUE, 'Fitness');
 ```
+
+# RUN THIS QUERY LINE BY LINE TO UNDERSTAND CLAUSES
+```sql
+select name, price from products;
+select * from products where category = 'Electronics';
+select category from products group by category;
+select category, count(*) from products group by category having count(*) > 1;
+select * from products order by price asc;
+select * from products limit 3;
+select name as item_name, price as item_price from products;
+select distinct category from products;
+```
