@@ -40,3 +40,10 @@ select * from products limit 3;
 select name as item_name, price as item_price from products;
 select distinct category from products;
 ```
+
+# TEST 2 SOLUTION QUERY
+```sql
+select name, price from products where price = (select min(price) from products);
+select round(avg(price),2) from products where category in ('Home & Kitchen', 'Fitness');
+select name, stock_quantity from products where stock_quantity > 50 and is_available = true and price != 299.00;
+```
