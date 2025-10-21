@@ -1,106 +1,54 @@
-# SQL Learning Journey
+# SQL Full Course for Beginners (30 Hours) – From Zero to Hero
 
-This repository contains my SQL learning materials organized into 10 episodes, covering fundamental to advanced SQL concepts.
+## 📖 Table of Content
 
-## Course Structure
+### __🟢Beginner Level__
+00:00 Intro ☑️
+07:38 Introduction to SQL ☑️
+22:33 Setup Your Environment ☑️
+34:01 Query Data (SELECT)  
+01:32:31 DDL Commands  
+01:43:44 DML Commands  
 
-### Episode 01: Introduction to SQL
-- Basic SQL concepts
-- Database fundamentals
-- SQL syntax basics
-- Creating and managing databases
-- Basic table operations
+### __🟡Intermediate Level__
+02:08:03 Filtering Data  
+02:47:57 SQL Joins (Basics)
+03:27:29 SQL Joins (Advanced)
+04:02:09 Set Operators  
+04:47:41 SQL Functions  
+04:52:58 String Functions  
+05:18:44 Numeric Functions  
+05:22:48 Date and Time Functions  
+06:59:06 NULL Functions
+08:07:50 Case Statement
+08:43:36 Aggregate Functions  
+08:50:11 Window Functions Basics  
+09:47:00 Window Aggregate  
+10:53:09 Window Ranking  
+11:56:05 Window Value  
 
-### Episode 02: ALTER commands, Constraints, Delete and Update
-- ALTER TABLE operations
-- Adding/Modifying constraints
-- Primary and Foreign keys
-- DELETE operations
-- UPDATE statements
-- Data integrity concepts
+### __🔴Advanced Level__
+12:40:34 Advanced SQL Techniques  
+12:58:04 Subqueries  
+14:18:08 Common Table Expressions (CTE)  
+15:35:02 Views  
+16:36:40 CTAS and Temp Tables  
+17:17:31 Compare Advanced Techniques  
+17:27:04 Stored Procedures  
+18:12:58 Triggers  
+18:23:42 Indexes 
+20:20:31 Execution Plan 
+21:11:03 Partitions  
+21:43:39 30x Performance Tips  
+22:24:25 AI and SQL  
 
-### Episode 03: Select and Where
-- SELECT statement fundamentals
-- WHERE clause filtering
-- Comparison operators
-- Logical operators (AND, OR, NOT)
-- Pattern matching with LIKE
-- NULL values handling
+### __🧪Projects__
+23:21:04 Project: SQL Data Warehouse  
+24:32:54 Project DWH | Bronze
+25:10:09 Project DWH | Silver
+26:47:46 Project DWH | Gold 
+27:41:51 Project: Exploratory Data Analysis (EDA)  
+28:30:38 Project: Advanced Data Analytics  
+29:47:24 Thank You  
 
-### Episode 04: SQL Filter Continue and Aggregation
-- Advanced filtering techniques
-- GROUP BY clause
-- ORDER BY clause
-- Basic aggregate functions
-- HAVING clause
-
-### Episode 05: Data Aggregation Continue + SQL Joins
-- Advanced aggregation
-- Types of JOINS:
-  - INNER JOIN
-  - LEFT JOIN
-  - RIGHT JOIN
-  - FULL JOIN
-- Multiple table joins
-
-### Episode 06: SQL Functions String Functions Case When
-- String manipulation functions
-- CASE WHEN statements
-- Date functions
-- Numeric functions
-- Conditional expressions
-
-### Episode 07: Set Operation - Union, Union All, Minus, Intersect
-- UNION vs UNION ALL
-- MINUS operation
-- INTERSECT operation
-- Combining result sets
-- Set operation rules
-
-### Episode 08: SQL Interview Questions
-- Common SQL interview problems
-- Performance optimization
-- Best practices
-- Troubleshooting scenarios
-- Query optimization
-
-### Episode 09: Sub Queries and CTEs
-- Subquery types
-- Common Table Expressions (CTEs)
-- Temporary result sets
-- Complex query structuring
-- Performance considerations
-
-### Episode 10: Window Analytical Functions
-- OVER clause
-- Partition BY
-- ROW_NUMBER()
-- RANK() and DENSE_RANK()
-- LAG and LEAD functions
-- Running totals and moving averages
-
-## Progress Tracking
-- [ ] Episode 01 completed
-- [ ] Episode 02 completed
-- [ ] Episode 03 completed
-- [ ] Episode 04 completed
-- [ ] Episode 05 completed
-- [ ] Episode 06 completed
-- [ ] Episode 07 completed
-- [ ] Episode 08 completed
-- [ ] Episode 09 completed
-- [ ] Episode 10 completed
-
-## Resources
-- Each episode contains practical examples
-- Practice exercises included
-- Real-world scenarios for better understanding
-
-## Learning Tips
-1. Practice each concept with hands-on exercises
-2. Review previous episodes before moving forward
-3. Create your own example queries
-4. Test your knowledge with the interview questions
-5. Focus on understanding rather than memorizing
-
-Happy Learning! 🚀
+This course is perfect for data analysts, data engineers, data scientists, software developers, and students—covering everything from the basics to advanced SQL topics.
