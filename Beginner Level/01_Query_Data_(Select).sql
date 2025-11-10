@@ -216,3 +216,20 @@ WHERE score != 0
 GROUP BY country
 HAVING AVG(score) > 430
 ORDER BY AVG(score) DESC
+
+/* ============================================================================== 
+   COOL STUFF - Additional SQL Features
+=============================================================================== */
+
+/* Selecting Static Data */
+-- Select a static or constant value without accessing any table
+SELECT 123 AS static_number;
+
+SELECT 'Hello' AS static_string;
+
+-- Assign a constant value to a column in a query
+SELECT
+    id,
+    first_name,
+    'New Customer' AS customer_type
+FROM customers;
