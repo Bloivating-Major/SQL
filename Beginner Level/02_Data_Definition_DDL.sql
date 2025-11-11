@@ -37,3 +37,9 @@ ADD email VARCHAR(50) NOT NULL
 ALTER TABLE persons
 DROP COLUMN phone
 
+/* ============================================================================== 
+   DROP
+=============================================================================== */
+
+-- Delete the table persons from the database
+DROP TABLE persons
